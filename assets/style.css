@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+section{
+    width: 100%;
+}
+
+
+/* Configurações CSS cabeçalho */
+
+header{
+    background-image: url('./image/Header-Background.png');
+    background-size: cover;
+}
+
+#header-content{
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+#header-content div{
+    width: 200px;
+    display: inline-block;
+}
+
+button{
+    width: auto;
+    height: 54px;
+    border-radius: 28px;
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#header-content span{
+    font-family: Luckiest Guy;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+
+}
+
+#header-content p{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#header-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+#button-windows{
+    color: black;
+    background-color: white;
+}
+
+#button-discord{
+    color: white;
+    background-color: black;
+}
+
+/* Configurações CSS Principal */
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+   
+}
+
+#main-section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+#main-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    margin-left: 10px;
+}
+
+#main-section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#main-section-4 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; 
+    background-color: #f6f6f6;
+    margin-left: 10px;  
+}
+
+main img{
+    width: 379px;
+}
+
+main span{
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 2.1rem; 
+}
+
+main p{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Rodapé*/
+
+footer{
+    text-align: center;
+    padding: 15px;
+}
+
+
+@media screen and (min-width:720px){
+    #header-content{
+        width: 780px;
+        text-align:center;
+    }
+
+    #header-buttons{
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    main img{
+        width: 600px;
+    }
+
+    #main-section-1{
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 20px;
+        width: auto; 
+    }
+
+    .title-section-1{
+        width: 285px;
+        margin-top: 15px;
+    }
+
+    .text-section-1{
+        width: 350px;
+    }
+
+    #main-section-2{
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+     
+    }
+
+    .title-section-2{
+        width: 285px;
+        margin-top: 70px;
+    }
+
+    .text-section-2{
+        width: 350px;
+    }
+
+    #main-section-3 {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 20px;
+        
+    }
+
+    .title-section-3{
+        width: 285px;
+        margin-top: 70px;
+    }
+
+    .text-section-3{
+        width: 350px;
+    }
+
+    #main-section-2 img{
+        order: 1;
+
+    }
+
+    #main-section-4 div{
+        text-align: center;
+        width: 600px;
+    }
+}
+    
